@@ -1,0 +1,5 @@
+libimagequant (0.8.2-1~magicstack1~trusty1) trusty; urgency=medium
+
+  * Initial release
+
+ -- Elvis Pranskevichus <elvis@magic.io>  Mon, 09 Jan 2017 13:02:24 -0500

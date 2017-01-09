@@ -1,0 +1,24 @@
+Source: libimagequant
+Priority: optional
+Maintainer: Elvis Pranskevichus <elvis@magic.io>
+Build-Depends: debhelper (>=9),autotools-dev
+Standards-Version: 3.9.6
+Section: libs
+Homepage: https://pngquant.org/lib
+#Vcs-Git: git://anonscm.debian.org/collab-maint/libimagequant.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/libimagequant.git
+
+Package: libimagequant-dev
+Section: libdevel
+Architecture: any
+Depends: libimagequant0 (= ${binary:Version}), ${misc:Depends}
+Description: Small, portable C library for image quantization (dev files).
+ libimagequant is a small, portable C library for high-quality 
+ conversion of RGBA images to 8-bit indexed-color (palette) images.
+
+Package: libimagequant0
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Small, portable C library for image quantization.
+ libimagequant is a small, portable C library for high-quality 
+ conversion of RGBA images to 8-bit indexed-color (palette) images.
